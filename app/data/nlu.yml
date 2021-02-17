@@ -90,3 +90,30 @@ nlu:
     - are you a human?
     - am I talking to a bot?
     - am I talking to a human?
+
+- intent: make_appointment
+  examples: |
+    - make an appointment
+    - schedule a meeting
+    - plan a meeting
+    - create an appoinment
+    - set up a meeting
+    - set up an appointment
+
+- intent: add_todo_item
+  examples: |
+    - add a to do item
+    - add to do item
+    - an an item my to do list
+    - put something on my to to list
+    - add something to to do list
+  
+
+- intent: set_timer
+  examples: |
+    - set a timer
+    - start a timer
+    - set an alarm
+    - set an alert
+    - set timer
+    - add a reminder
