@@ -1,6 +1,23 @@
 version: "2.0"
 
 nlu:
+- intent: play_a_game
+  examples: |
+    - start a game
+    - play a game
+    - begin a game
+    - play the word game
+    - play the game with similar words
+  
+
+- intent: learn_a_word
+  examples: |
+    - leaern a word
+    - learn a new word
+    - learn a new vocabulary item
+    - hear a new word
+    - hear a dictionary entry
+
 - intent: greet
   examples: |
     - hey
